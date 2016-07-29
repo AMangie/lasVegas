@@ -333,3 +333,21 @@ body {
     display: none;
   }
 }
+@media  (max-width: 400px){
+  .layer-1 h1 {
+    font-size: 17px;
+  }
+  .layer-1 h1 span {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .vegasForm  h2 {
+    font-size: 22px;
+  }
+  .vegasForm p {
+    font-size: 14px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+}
