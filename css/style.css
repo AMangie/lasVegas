@@ -211,7 +211,7 @@ body {
     color: #fff;
     text-align: center;
     overflow: hidden;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .vegasForm input.form-control {
     border: 1px solid #5d022c;
@@ -232,9 +232,18 @@ body {
 }
 .vegasForm h2 {
   font-family: 'Petit Formal Script', cursive;
+  font-size: 20px;
+  color: #bba1bb;
 }
-.vegasForm p {
+.vegasForm ul {
     font-weight: 100;
+    list-style-type: none;
+    /*text-align: left;*/ 
+    font-size: 12px;
+}
+.vegasForm ul strong{
+    font-size: 15px;
+    color: #baa0ba;
 }
 .vegasForm .container{
   position: relative;
@@ -252,11 +261,11 @@ body {
     bottom: -400px;
 }
 .vegasForm a {
-    color: #c090d3;
+    color: #d390a4;
     transition: all .2s ease;
 }
 .vegasForm a:hover, .vegasForm a:focus {
-    color: #a949cf;
+    color: #ffd3dc;
     text-decoration: none;
 }
 .logoForm{
@@ -266,18 +275,18 @@ body {
 .btnVegas {
     background-color: transparent;
     border-radius: 0;
-    border: 1px solid #c090d3;
+    border: 1px solid #d390a4;
     text-transform: uppercase;
     font-weight: 100;
     padding: 10px 30px;
     letter-spacing: 3px;
-    color: #c090d3;
+    color: #d390a4;
     margin: 25px 0 0;
     transition: all .2s ease;
 }
 .btnVegas:hover {
     box-shadow: 1px 1px 15px;
-    text-shadow: 0px 0px 10px #c090d3;
+    text-shadow: 0px 0px 10px #d390a4;
 }
 .btnVegasModal {
     background-color: transparent;
@@ -294,6 +303,26 @@ body {
 .btnVegasModal:hover {
     box-shadow: 1px 1px 15px #90d2d3;
     text-shadow: 0px 0px 10px #90d2d3;
+}
+.fbShare {
+    background-color: #3b5999;
+    border: none;
+    padding: 13px 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    min-width: 170px;
+}
+.fbShare img {
+    display: inline;
+    max-width: 15px;
+    margin-top: -3px;
+}
+.fbShare span {
+    padding-top: 2px;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 .headerText{
   opacity: 1;
