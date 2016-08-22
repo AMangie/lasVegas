@@ -353,9 +353,42 @@ body {
     color: #ffffff;
 }
 .modal-footer {
-    padding: 15px 15px 30px;
+    padding: 0 15px 30px;
     text-align: center;
     border-top: none;
+}
+#termsCond .btnVegasModal{
+  margin-top: 0;
+}
+#termsCond h2{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 24px;
+    color: #f5c2f5;
+    text-transform: none;
+}
+#termsCond .subTitleVegas {
+    font-size: 13px;
+    font-style: italic;
+    text-transform: none;
+}
+#termsCond h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0;
+}
+#termsCond a{
+  color: #f5c2f5;
+}
+#termsCond p, #termsCond ul{
+    font-size: 12px;
+}
+#termsCond strong {
+    margin-top: 15px;
+    display: block;
+}
+#termsCond .numberUl{
+  list-style-type: decimal;
 }
 @media  (max-width: 768px){
   .sideRight, .sideLeft{
